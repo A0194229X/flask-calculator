@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2  
       
-      - run: |
-          mkdir -p logs/
-          echo 'Environment/App/db' > logs/exclude.txt
+#       - run: |
+#           mkdir -p logs/
+#           echo 'Environment/App/db' > logs/exclude.txt
          
       - uses: max/secret-scan@master
       #   with:
